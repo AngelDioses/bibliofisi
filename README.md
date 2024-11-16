@@ -21,11 +21,14 @@ install.packages(c("shiny", "RefManageR", "dplyr", "ggplot2", "shinydashboard"))
 
 1. Sube un archivo `.bib`: La aplicación comienza pidiendo que subas un archivo `.bib` con referencias bibliográficas. Asegúrate de que el archivo esté en formato `.bib` válido.
 2. Visualización de Estadísticas Generales:
+   
   - Número total de tesis.
   - Número de autores.
   - Número de asesores.
   - Número de temas.
+    
 3. Gráficos Interactivos:
+   
   - Distribución de Tesis por Año: Muestra un gráfico de barras con la cantidad de tesis realizadas por año.
   - Autores más Productivos: Muestra un gráfico de barras con los 10 autores que han realizado más tesis.
   - Asesores más Activos: Muestra un gráfico de barras con los 10 asesores que han supervisado más tesis.
